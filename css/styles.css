@@ -45,7 +45,7 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 .container { 
-width: 1128px;
+width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
@@ -116,7 +116,7 @@ color: #404bbf;
 font-style: normal;   
 display: flex;
 align-items: center;
-gap: 40px;
+
 }
 .contacts-item {
 display: flex;
@@ -167,10 +167,7 @@ border: none;
 border-radius: 4px;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 188px;
 cursor: pointer;
-/* position: relative;
-margin-inline: auto;*/
 }
 .button-main:hover,
 .button-main:focus {
@@ -183,18 +180,12 @@ padding: 120px 0;
 }
 .functions-list {
 display: flex;
-gap: 24px;
 align-items: flex-start; 
-/*padding-top: 120px;
-padding-bottom: 120px;*/
 }
 .functions-list-item {
-/*font-size: 40px;
-display: flex;
-flex-wrap: wrap;*/
 width: calc((100% - 72px) / 4);
 }
-.functions-list-item:not(:last-child) {
+.functions-list-item:not(:last-child) { /*застосовуємо для всіх, окрім останньої */
 margin-right: 24px;
 }
 .functions-title {
@@ -250,7 +241,7 @@ border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 width: calc((100% - 72px) / 4);
 }
-.team-list-item:not(:last-child) {
+.team-list-item:not(:last-child) { /*застосовуємо для всіх, окрім останньої */
 margin-right: 24px;
 }
 .team-thumb {
@@ -315,6 +306,7 @@ padding-bottom: 120px;*/
 
 .portfolio-list-item {
 width: calc((100% - 48px) / 3);
+max-width: 360px;
 /*background-color: #ffffff;
 display: flex;
 flex-direction: column;
@@ -327,7 +319,7 @@ padding-bottom: 0px;*/
 .portfolio-list-item:not(:nth-child(3n + 3)) {
 margin-right: 24px;
 }
-.portfolio-list-item:nth-child(-1n + 3) {
+.portfolio-list-item:nth-child(-1n + 3) { /*застосовуємо для всіх, по формулі з заду напередю Тобто, 3,2,1*/
 margin-bottom: 48px;
 }
 
@@ -397,5 +389,4 @@ color: #F4F4FD;
 line-height: 1.5;
 letter-spacing: 0.02em;
 max-width: 264px;
-margin-bottom: 100px;
 }  
