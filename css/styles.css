@@ -128,6 +128,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+gap: 40px;
 }
 .menu-link-contacts:hover,
 .menu-link-contacts:focus {
@@ -265,6 +266,7 @@ margin-right: 24px;
 }
 .team-thumb {
 padding: 32px 0;
+width: 264px;
 }
 .functions-title {
 color: #2E2F42;
@@ -373,12 +375,12 @@ background-color: #ffffff;
 /* ============= FOOTER ============= */
 
 .bottom-footer {
-    background:#2e2f42;
-    flex-shrink: 0;
-    height: 312px;
-    padding: 100px 0;
-    display: flex;
-    }
+background:#2e2f42;
+flex-shrink: 0;
+height: 312px;
+padding: 100px 0;
+display: flex;
+}
 
 .logotype-footer {
 color: #4d5ae5;
