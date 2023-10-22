@@ -120,7 +120,7 @@ gap: 40px;
 }
 .contacts-item {
 display: flex;
-column-gap: 40px;
+gap: 40px;
 }
 .menu-link-contacts {
 font-size: 16px;
@@ -128,7 +128,6 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-gap: 40px;
 }
 .menu-link-contacts:hover,
 .menu-link-contacts:focus {
@@ -244,22 +243,12 @@ margin-bottom: 72px;
 .team-list {
 display: flex;
 background-color: transparent;
-/*margin-top: 72px;
-gap: 24px;
-justify-content: center;*/
 }
 .team-list-item {
 background-color: #ffffff;
 border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 width: calc((100% - 72px) / 4);
-/*display: flex;
-flex-direction: column;
-row-gap: 32px;
-padding-bottom: 0px;
-align-items: center;
-width: 264px;
-height: 380px ;*/
 }
 .team-list-item:not(:last-child) {
 margin-right: 24px;
@@ -276,8 +265,7 @@ letter-spacing: 0.02em;
 font-weight: 500;
 text-align: center;
 margin-bottom: 8px;
-/*  padding-top: 32px;
-    background-color: #ffffff;*/
+/*background-color: #ffffff;*/
 }
 
 .functions-text {
