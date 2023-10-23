@@ -245,8 +245,8 @@ width: calc((100% - 72px) / 4);
 margin-right: 24px;
 }
 .team-thumb {
-padding: 32px 16px;
-width: 232px;
+padding: 32px 0; 
+margin-left: 16px;
 }
 .team-name {
 color: #2E2F42;
