@@ -245,10 +245,10 @@ width: calc((100% - 72px) / 4);
 margin-right: 24px;
 }
 .team-thumb {
-padding: 32px 0;
-width: 264px;
+padding: 32px 16px;
+width: 232px;
 }
-.functions-title {
+.team-name {
 color: #2E2F42;
 font-size: 20px;
 line-height: 1.2;
@@ -256,15 +256,17 @@ letter-spacing: 0.02em;
 font-weight: 500;
 text-align: center;
 margin-bottom: 8px;
+width: 232px;
 /*background-color: #ffffff;*/
 }
 
-.functions-text {
+.team-text {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455; 
+width: 232px;
 /*background-color: #ffffff;
 padding-bottom: 32px;*/
 }
